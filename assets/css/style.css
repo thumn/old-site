@@ -116,6 +116,7 @@ ul {
 
 #experience-section {
 	background-color: aliceblue;
+  height: 1000px;
 }
 
 #contact-section {
@@ -142,5 +143,12 @@ ul {
   float: left;
   padding: 15px;
   width: 450px;
+  height: auto;
+}
+
+.experience {
+  float: left;
+  padding: 20px;
+  width: 350px;
   height: auto;
 }
