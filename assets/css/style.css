@@ -128,10 +128,7 @@ ul {
   font-size: 80px;
   margin-bottom: 50px;
   font-weight: 700;
-  /*-webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  transform: translateX(-50%);*/
-  margin-left: 34%;
+  text-align: center;
   padding-top: 60px;
 }
 
@@ -144,6 +141,59 @@ ul {
   padding: 15px;
   width: 450px;
   height: auto;
+	z-index: 50;
+}
+
+.project-item:hover, .project:hover {
+	opacity: 0.5;
+	transition: all 0.5s;
+}
+
+.experience-item:hover, .experience:hover {
+	opacity: 0.5;
+	transition: all 0.5s;
+}
+
+.project-item:hover .image-text {
+	opacity: 1;
+	transition: all 0.5s;
+	color: black;
+	font-weight: 700;
+}
+
+.experience-item:hover .image-text {
+	opacity: 1;
+	transition: all 0.5s;
+	color: black;
+	font-weight: 700;
+}
+
+.project-item:hover .middle {
+	opacity: 1;
+}
+
+.project-item:hover .subheader {
+	opacity: 1;
+	transition: all 0.5s;
+	color: black;
+	font-weight: 700;
+}
+
+.experience-item:hover .subheader {
+	opacity: 1;
+	transition: all 0.5s;
+	color: black;
+	font-weight: 700;
+}
+
+.project-item {
+	position: relative;
+	float: left;
+}
+
+.experience-item {
+	position: relative;
+	float: left;
 }
 
 .experience {
@@ -151,4 +201,49 @@ ul {
   padding: 20px;
   width: 350px;
   height: auto;
+  text-align: center;
+  display: block;
+}
+
+#left-margin {
+  margin-left: 120px;
+}
+
+.middle {
+	width: 450px;
+	height: auto;
+	z-index: 100;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image-text, .subheader {
+	font-size: 16px;
+	padding: 10px;
+	color: white;
+	left: 0;
+	right: 0;
+	width: 250px;
+	text-align: center;
+	margin-top: 0;
+	margin-left: 20%;
+	opacity: 0;
+}
+
+.subheader {
+	margin-top: 18%;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#exp-left {
+	margin-left: 150px;
+}
+
+#exp-right {
+	margin-right: 600px;
 }
