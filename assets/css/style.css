@@ -103,24 +103,26 @@ ul {
 .navbar {
   opacity: 1;
   background-color: black;
+	z-index: 200;
 }
 
 #about-section {
-	background-color: #8bb2af;
+	background-color: #CECECE;
 }
 
 #project-section {
-  background-color: teal;
+  background-color: #a6a6a8;
   height: 900px;
 }
 
 #experience-section {
-	background-color: aliceblue;
+	background-color: #9fb1bc;
   height: 1000px;
 }
 
 #contact-section {
-	background-color: aquamarine;
+	background-color: #6e8898;
+	height: 600px;
 }
 
 #header {
@@ -144,7 +146,7 @@ ul {
 	z-index: 50;
 }
 
-.project-item:hover, .project:hover {
+/*.project-item:hover, .project:hover {
 	opacity: 0.5;
 	transition: all 0.5s;
 }
@@ -152,19 +154,19 @@ ul {
 .experience-item:hover, .experience:hover {
 	opacity: 0.5;
 	transition: all 0.5s;
-}
+}*/
 
 .project-item:hover .image-text {
 	opacity: 1;
 	transition: all 0.5s;
-	color: black;
+	color: #31393c;
 	font-weight: 700;
 }
 
 .experience-item:hover .image-text {
 	opacity: 1;
 	transition: all 0.5s;
-	color: black;
+	color: #31393c;
 	font-weight: 700;
 }
 
@@ -175,14 +177,14 @@ ul {
 .project-item:hover .subheader {
 	opacity: 1;
 	transition: all 0.5s;
-	color: black;
+	color: #31393c;
 	font-weight: 700;
 }
 
 .experience-item:hover .subheader {
 	opacity: 1;
 	transition: all 0.5s;
-	color: black;
+	color: #31393c;
 	font-weight: 700;
 }
 
@@ -211,7 +213,6 @@ ul {
 
 .middle {
 	width: 450px;
-	height: auto;
 	z-index: 100;
 	display: block;
 	position: absolute;
@@ -222,22 +223,32 @@ ul {
 }
 
 .image-text, .subheader {
+	background-color: white;
 	font-size: 16px;
 	padding: 10px;
 	color: white;
 	left: 0;
 	right: 0;
-	width: 250px;
+	width: 316px;
 	text-align: center;
-	margin-top: 0;
-	margin-left: 20%;
+	margin-left: 12.5%;
 	opacity: 0;
 }
 
+/*.image-text {
+	height: 200px;
+}*/
+
 .subheader {
-	margin-top: 18%;
+	margin-top: 10%;
 	font-size: 24px;
 	font-weight: 700;
+	height: 67px;
+}
+
+.image-text {
+	margin-top: -30px;
+	height: 130px;
 }
 
 #exp-left {
@@ -245,5 +256,30 @@ ul {
 }
 
 #exp-right {
-	margin-right: 600px;
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+#exp-left, #exp-right, #exp {
+	text-align: center;
+}
+
+.contact-icon {
+	width: 50px;
+	height: auto;
+	padding: 10px;
+}
+
+#contact-first {
+	margin-top: 80px;
+}
+
+.contact-link {
+	text-decoration: none;
+	color: #31393c;
+
+}
+
+#proj-widen {
+	width: 320px;
 }

@@ -1,10 +1,8 @@
 $(document).ready(function() {
-  $(".project-item").hover(function () {
-    $(this).find('.image-text').fadeIn(100);
-},
-function () {
-    $(this).find('.image-text').fadeOut(100);
-});​
-
+  $('a').click(function() {
+    $('html, body').animate({
+      scrollTop: $( $.attr(this, 'href')).offset().top
+    }, 300);
+    return false;
   })
 })
