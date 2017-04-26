@@ -307,7 +307,7 @@ ul {
 }
 
 #exp-widen {
-	width: 230px;
+	width: 233px;
 }
 
 .middle-exp {
@@ -369,11 +369,21 @@ ul {
 	margin-top: 50px;
 }
 
-#copyright {
+/*#copyright {
 	font-family: Lato;
 	font-weight: 100;
 	font-style: italic;
 	text-align: center;
-	margin-top: 380px;
+	margin-top: 300px;
 	color: white;
+}*/
+
+#up-arrow {
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 320px;
+	height: 50px;
+	width: 50px;
 }

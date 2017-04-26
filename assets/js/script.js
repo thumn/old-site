@@ -19,5 +19,18 @@ $(document).ready(function() {
     $('#title-subtext').fadeIn('slow');
   });
 
+  // jQuery functions: (6) .fadeIn() (7) .fadeOut()
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 2500) {
+        $('#up-arrow').fadeIn('slow');
+    } else {
+        $('#up-arrow').fadeOut('slow');
+    }
+  });
+
+  $("#up-arrow").click(function () {
+    $("html, body").animate({scrollTop: 0}, 1000);
+  });
 
 })
