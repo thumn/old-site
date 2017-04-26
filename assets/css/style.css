@@ -37,7 +37,10 @@ li {
 }
 
 #name-text {
-  font-size: 100px;
+  font-size: 150px;
+	font-family: Oswald;
+	font-weight: 600;
+	line-height: 90%;
 }
 
 #title-section {
@@ -46,13 +49,12 @@ li {
   height: 800px;
   width: 1440px;
   z-index: 5;
-
 }
 
 #title-subtext {
   font-style: italic;
   margin-left: 17%;
-  margin-top: 10%;
+  margin-top: 13%;
   font-weight: 500;
   font-size: 25px;
 }
@@ -132,6 +134,9 @@ ul {
   font-weight: 700;
   text-align: center;
   padding-top: 60px;
+	font-family: Oswald;
+	font-weight: 600;
+	margin-bottom: 0%;
 }
 
 #body-text {
@@ -144,6 +149,16 @@ ul {
   width: 450px;
   height: auto;
 	z-index: 50;
+}
+
+#description {
+	font-family: Lato;
+	color: white;
+	font-style: italic;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50%;
+	margin-bottom: 3%;
 }
 
 /*.project-item:hover, .project:hover {
@@ -278,7 +293,10 @@ ul {
 .contact-link {
 	text-decoration: none;
 	color: #31393c;
+}
 
+.contact-link:visited {
+	color: #31393c;
 }
 
 #proj-widen {
@@ -328,4 +346,14 @@ ul {
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#about-text {
+	margin-top: 4%;
+	text-align: justify;
+	font-size: 32px;
+}
+
+.sidebar-item {
+	font-weight: 700;
 }
