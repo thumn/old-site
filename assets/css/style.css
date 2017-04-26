@@ -103,7 +103,7 @@ ul {
 .navbar {
   opacity: 1;
   background-color: black;
-	z-index: 200;
+	z-index: 0.5;
 }
 
 #about-section {
@@ -117,7 +117,7 @@ ul {
 
 #experience-section {
 	background-color: #9fb1bc;
-  height: 1000px;
+  height: 700px;
 }
 
 #contact-section {
@@ -159,15 +159,15 @@ ul {
 .project-item:hover .image-text {
 	opacity: 1;
 	transition: all 0.5s;
-	color: #31393c;
-	font-weight: 700;
+	color: white;
+	/*font-weight: 700;*/
 }
 
 .experience-item:hover .image-text {
 	opacity: 1;
 	transition: all 0.5s;
-	color: #31393c;
-	font-weight: 700;
+	color: white;
+	/*font-weight: 700;*/
 }
 
 .project-item:hover .middle {
@@ -177,14 +177,14 @@ ul {
 .project-item:hover .subheader {
 	opacity: 1;
 	transition: all 0.5s;
-	color: #31393c;
+	color: white;
 	font-weight: 700;
 }
 
 .experience-item:hover .subheader {
 	opacity: 1;
 	transition: all 0.5s;
-	color: #31393c;
+	color: white;
 	font-weight: 700;
 }
 
@@ -201,8 +201,8 @@ ul {
 .experience {
   float: left;
   padding: 20px;
-  width: 350px;
-  height: auto;
+  width: auto;
+  height: 150px;
   text-align: center;
   display: block;
 }
@@ -213,7 +213,7 @@ ul {
 
 .middle {
 	width: 450px;
-	z-index: 100;
+	z-index: 50;
 	display: block;
 	position: absolute;
 	left: 0;
@@ -223,16 +223,17 @@ ul {
 }
 
 .image-text, .subheader {
-	background-color: white;
+	background-color: #9fb1bc;
 	font-size: 16px;
 	padding: 10px;
 	color: white;
 	left: 0;
 	right: 0;
-	width: 316px;
+	width: 318px;
 	text-align: center;
 	margin-left: 12.5%;
 	opacity: 0;
+	z-index: 1;
 }
 
 /*.image-text {
@@ -241,7 +242,7 @@ ul {
 
 .subheader {
 	margin-top: 10%;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 700;
 	height: 67px;
 }
@@ -282,4 +283,49 @@ ul {
 
 #proj-widen {
 	width: 320px;
+}
+
+#proj-too-long {
+	font-size: 30px;
+}
+
+#exp-widen {
+	width: 230px;
+}
+
+.middle-exp {
+	position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9fb1bc;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.experience-item:hover .middle-exp {
+	width: 100%;
+}
+
+.image-text-exp {
+	white-space: normal;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: visible;
+	margin-top: 60px;
+}
+
+.subheader-exp {
+	color: white;
+	font-size: 26px;
+	position: absolute;
+	overflow: hidden;
+	font-weight: 700;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
