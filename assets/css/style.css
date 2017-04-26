@@ -182,6 +182,8 @@ ul {
 	opacity: 1;
 	transition: all 0.5s;
 	color: white;
+	position: fixed;
+
 	/*font-weight: 700;*/
 }
 
@@ -284,10 +286,7 @@ ul {
 	width: 50px;
 	height: auto;
 	padding: 10px;
-}
-
-#contact-first {
-	margin-top: 80px;
+	vertical-align: middle;
 }
 
 .contact-link {
@@ -356,4 +355,25 @@ ul {
 
 .sidebar-item {
 	font-weight: 700;
+}
+
+.proj-link {
+	text-decoration: none;
+	color: white;
+	background-color: #6e8898;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+#contact-text {
+	margin-top: 50px;
+}
+
+#copyright {
+	font-family: Lato;
+	font-weight: 100;
+	font-style: italic;
+	text-align: center;
+	margin-top: 380px;
+	color: white;
 }
