@@ -161,21 +161,10 @@ ul {
 	margin-bottom: 3%;
 }
 
-/*.project-item:hover, .project:hover {
-	opacity: 0.5;
-	transition: all 0.5s;
-}
-
-.experience-item:hover, .experience:hover {
-	opacity: 0.5;
-	transition: all 0.5s;
-}*/
-
 .project-item:hover .image-text {
 	opacity: 1;
 	transition: all 0.5s;
 	color: white;
-	/*font-weight: 700;*/
 }
 
 .experience-item:hover .image-text {
@@ -183,8 +172,6 @@ ul {
 	transition: all 0.5s;
 	color: white;
 	position: fixed;
-
-	/*font-weight: 700;*/
 }
 
 .project-item:hover .middle {
@@ -252,10 +239,6 @@ ul {
 	opacity: 0;
 	z-index: 1;
 }
-
-/*.image-text {
-	height: 200px;
-}*/
 
 .subheader {
 	margin-top: 10%;
@@ -368,15 +351,6 @@ ul {
 #contact-text {
 	margin-top: 50px;
 }
-
-/*#copyright {
-	font-family: Lato;
-	font-weight: 100;
-	font-style: italic;
-	text-align: center;
-	margin-top: 300px;
-	color: white;
-}*/
 
 #up-arrow {
 	left: 0;
