@@ -30,7 +30,8 @@ $(document).ready(function() {
   });
 
   $("#up-arrow").click(function () {
-    $("html, body").animate({scrollTop: 0}, 1000);
+    $("html, body").animate({scrollTop: 0}, 800);
+    return false;
   });
 
 })

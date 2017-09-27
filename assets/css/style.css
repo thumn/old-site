@@ -46,8 +46,8 @@ li {
 #title-section {
   background-image: url("../img/thu.JPG");
   background-size: cover;
-  height: 800px;
-  width: 1440px;
+  height: 100%;
+  width: 100%;
   z-index: 5;
 }
 
@@ -333,7 +333,7 @@ ul {
 #about-text {
 	margin-top: 4%;
 	text-align: justify;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 .sidebar-item {
