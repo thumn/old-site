@@ -312,10 +312,11 @@ ul {
 .image-text-exp {
 	white-space: normal;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   position: absolute;
   overflow: visible;
 	margin-top: 60px;
+	float: left;
 }
 
 .subheader-exp {
