@@ -2,199 +2,66 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,600" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src = "assets/js/script.js"></script>
     <title>Thu Nguyen</title>
+    <link rel="stylesheet" type="text/css" href="website.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
   </head>
   <body>
-    <!-- Sections begin here. -->
-    <nav class = "navbar">
-      <ul>
-        <a href = "#about-section">
-          <li class = "sidebar-item">ABOUT</li>
-        </a>
-        <a href = "#project-section">
-          <li class = "sidebar-item">PROJECTS</li>
-        </a>
-        <a href = "#experience-section">
-          <li class = "sidebar-item">EXPERIENCE</li>
-        </a>
-        <a href = "#contact-section">
-          <li class = "sidebar-item">CONTACT</li>
-        </a>
-      </ul>
-    </nav>
-    <div class = "pagewrapper">
-      <!-- Title section -->
-      <section class = "section" id = "title-section">
-        <div class = "text" id = "name-text">
-          THU NGUYEN
-        </div>
-        <div class = "text" id = "title-subtext">
-          UC Berkeley Computer Science
-          <br>
-          Class of 2020
-        </div>
-        </div>
-      </section>
-        <!-- About section -->
-      <section class = "section" id = "about-section">
-        <div id = "header">
-          ABOUT ME
-        </div>
-        <div class = "text" id = "about-text">
-          Hi, I'm <b>Thu Nguyen</b>!
-          <br>
-          I'm a second-year Computer Science student at UC Berkeley.
-          I've had experience working with Python, Java, and web development, and I
-          love putting my coding abilities to the test at collegiate hackathons!
-          This past summer, I interned at Google as an Engineering Practicum intern
-          working on developing the UI for managing rules using automation in
-          OMG Assist, Google's outage management dashboard. I'll be returning to Google
-          next summer as an Engineering Practicum intern.
-        </div>
-        <!-- <div class = "text" id = "skills-text">
-          List skills here
-        </div> -->
-      </section>
-      <!-- Portfolio section -->
-      <section class = "section" id = "project-section">
-        <div id = "header">
-          PROJECTS
-        </div>
-        <div id = "description">that I've been working on</div>
-        <div class = "project-item" id = "carepackage">
-          <img class = "project" src = "assets/img/carepackage.png">
-          <div class = "middle">
-              <div class = "subheader" id = "proj-widen">CARE PACKAGE</div>
-              <div class = "image-text" id = "proj-widen">Web app that allows users to send delayed-delivery
-                messages on themed stationary to friends and family
-                <br><br>
-                <a class = "proj-link" href = "http://carepackage-cssi.appspot.com">LINK</a>
-              </div>
-          </div>
-        </div>
-        <div class = "project-item" id = "dailydose">
-          <img class = "project" src = "assets/img/dailydose.png">
-          <div class = "middle">
-              <div class = "subheader">DAILY DOSE</div>
-              <div class = "image-text">Locally run web app that allows users to set
-                personal motivational quotes that are returned randomly over time as goals are completed</div>
-          </div>
-        </div>
-        </div>
-        <div class = "project-item" id = "adoptdontshop">
-          <img class = "project" src = "assets/img/adoptdontshop.png">
-          <div class = "middle">
-              <div class = "subheader" id = "proj-too-long">ADOPT DON'T SHOP</div>
-              <div class = "image-text">Web app that connects prospective pet owners with people
-              who can no longer take care of their pets in order to remove shelters and abandonment
-            from the adoption process
-            <br><br>
-            <a class = "proj-link" href = "http://adopt-dont-shop.appspot.com">LINK</a>
-          </div>
-        </div>
-        </div>
-        <div class = "project-item" id = "sqldatabase">
-          <img class = "project" src = "assets/img/sql.png">
-          <div class = "middle">
-              <div class = "subheader">SQL DATABASE</div>
-              <div class = "image-text">Database that parses SQL commands and is capable of carrying out join and operation
-              commands</div>
-          </div>
-        </div>
-        <div class = "project-item" id = "bearmaps">
-          <img class = "project" src = "assets/img/bearmaps.png">
-          <div class = "middle">
-              <div class = "subheader">BEAR MAPS</div>
-              <div class = "image-text">Back-end of web app that allows users to zoom into rastered images of UC Berkeley map, search
-              shortest paths between two specified locations, and search locations through autocomplete</div>
-          </div>
-        </div>
-        <div class = "project-item" id = "bearmaps">
-          <img class = "project" src = "assets/img/resumewebsite.png">
-          <div class = "middle">
-              <div class = "subheader">RESUME WEBSITE</div>
-              <div class = "image-text">Entire creation of this website for Web Design DeCal (took long enough that it
-                deserves a temporary place here while I work on another project)</div>
-          </div>
-        </div>
-      </section>
-      <!-- Experience section -->
-      <section class = "section" id = "experience-section">
-        <div id = "header">
-          EXPERIENCE
-        </div>
-        <div id = "description">from volunteer work to internships</div>
-        <div class = "experience-item" id = "mobilemakerspace">
-          <img class = "experience" id = "left-margin" src = "assets/img/makerspace.png">
-          <div class = "middle-exp">
-              <div class = "subheader-exp" id = "exp-left">SJPL MOBILE MAKERSPACE</div>
-              <div class = "image-text-exp" id = "exp-left">Youth assistant for downtown San Jose project introducing
-              3D printing technology to community</div>
-          </div>
-        </div>
-        <div class = "experience-item" id = "scratchcamp">
-          <img class = "experience" src = "assets/img/scratch.jpg">
-          <div class = "middle-exp">
-              <div class = "subheader-exp" id = "exp">SCRATCH CODING CAMP FOR KIDS</div>
-              <div class = "image-text-exp" id = "exp">Organizer and teacher of week-long introductory coding class for kids in grades
-              K-5, in which students built and presented working maze games</div>
-          </div>
-        </div>
-        <div class = "experience-item" id = "anova">
-          <img class = "experience" src = "assets/img/anova.png">
-          <div class = "middle-exp">
-              <div class = "subheader-exp" id = "exp">ANOVA</div>
-              <div class = "image-text-exp" id = "exp">Events Committee Member, responsible for fundraising and outreach for bi-annual ANova Hacks
-              for underrepresented high school students in the Bay Area and lab assisting at Oakland Charter High School</div>
-          </div>
-        </div>
-        <div class = "experience-item" id = "awe">
-          <img class = "experience" id = "left-margin" src = "assets/img/awe.png">
-          <div class = "middle-exp">
-              <div class = "subheader-exp" id = "exp-left">ASSOCIATION OF WOMEN IN EECS</div>
-              <div class = "image-text-exp" id = "exp-left">Activities Officer, helping to organize and plan various social and
-                educational events for club members</div>
-          </div>
-        </div>
-        <div class = "experience-item" id = "googleep">
-          <img class = "experience" id = "too-big" src = "assets/img/google.png">
-          <div class = "middle-exp">
-              <div class = "subheader-exp" id = "exp-right">GOOGLE ENGINEERING PRACTICUM</div>
-              <div class = "image-text-exp" id = "exp-right">Intern for Google during Summer 2017, working on OMG Assist Team</div>
-          </div>
-        </div>
-        <div class = "experience-item" id = "cssi">
-          <img class = "experience" id = "exp-widen" src = "assets/img/cssi.jpg">
-          <div class = "middle-exp">
-              <div class = "subheader-exp" id = "exp-right">GOOGLE CSSI</div>
-              <div class = "image-text-exp" id = "exp-right">Learned about various
-              coding languages and built a final web app project</div>
-          </div>
-        </div>
-      </section>
-      <section class = "section" id = "contact-section">
-        <div id = "header">
-          CONTACT ME
-        </div>
-        <div class = "text" id = "contact-text">
-          <img class = "contact-icon" id = "contact-first" src = "assets/img/email.png"> <a class = "contact-link"
-          href = "mailto:tmnguyen@berkeley.edu"> tmnguyen@berkeley.edu </a>
-          <br>
-          <img class = "contact-icon" src = "assets/img/github.png"> <a class = "contact-link" href = "http://github.com/thumn">@thumn</a>
-          <br>
-          <img class = "contact-icon" src = "assets/img/linkedin.png"> <a class = "contact-link"  class = "contact-link" href = "http://linkedin.com/in/thumn">@thumn</a>
-          <br>
-          <img class = "contact-icon" src = "assets/img/resume.png"> <a class = "contact-link" href = "Resume_ThuNguyen.pdf"> [PDF] </a>
-        </div>
-        <div id = "up-arrow"><a class = "up-arrow" href = ""><img src = "assets/img/up-arrow.png"></a></div>
-      </section>
-      </div>
+
+    <!-- Logo -->
+    <div id="logo-bar">
+      <a href="file:///Users/thunguyen/Desktop/site/index.html"><img id="logo" src="images/logo 2.jpg"></a>
     </div>
+
+    <!-- Navbar -->
+    <nav role="navigation" id="navbar">
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="/index.html" class="text"><li>Home</li></a>
+          <a href="/experience.html" class="text"><li>Experience</li></a>
+          <a href="/photo.html" class="text"><li>Photography</li></a>
+          <a href="Thu_Nguyen.pdf" class="text"></li>Resume</li></a>
+        </ul>
+    </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="content">
+      <div>
+        <img id="index-my-photo" src="images/thuthu.JPG">
+      </div>
+
+      <div id="index-description">
+        <h1 class="header-1">
+          Hello,
+          I'm
+          <br>
+          <div id="name">
+            Thu Nguyen!
+          </div>
+        </h1>
+        <p class="body-text">
+          I'm a <strong>sophomore</strong> majoring in <strong>Cognitive Science</strong>
+          <br>
+          and minoring in <strong>Computer Science</strong> at <strong>UC Berkeley</strong>.
+          <br>
+          <br>
+          I love <strong>coding</strong>, <strong>photography</strong>, and making meaningful <strong>memories</strong>!
+          <br>
+          <br>
+          This summer, I'm heading off to <strong>New York</strong> as an
+          <br>
+        <strong>Engineering Practicum</strong> intern at <strong>Google</strong>.
+        </p>
+      </div>
+  </div>
+
+
   </body>
 </html>
