@@ -9,8 +9,13 @@ src: url("css/fonts/Gloss_And_Bloom.ttf");
 
 /*universal*/
 
+
 body, html {
   height: 100%;
+}
+
+.content {
+  position: fixed;
 }
 
 #logo {
@@ -242,17 +247,18 @@ body, html {
 /*index.html*/
 
 #index-my-photo {
-  width: 55%;
+  position: fixed;
+  width: 40%;
   float: left;
-  margin-left: -4%;
-  margin-top: 10%;
+  margin-left: -3%;
+  margin-top: 5%;
 }
 
 #index-description {
-  position: relative;
+  position: fixed;
   float: left;
-  margin-left: 7%;
-  margin-top: 10%;
+  margin-left: 43%;
+  margin-top: 5%;
   width: 400px;
 }
 
