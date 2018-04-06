@@ -18,6 +18,22 @@ body, html {
   position: fixed;
 }
 
+#footer {
+  margin-bottom: 0%;
+  margin-top: 92vh;
+  color: red;
+  text-align: center;
+  z-index: 1;
+}
+
+#photo-footer {
+  /*margin-bottom: 0%;*/
+  /*margin-top: 0vh;*/
+  margin-top: -59%;
+  color: #cdcdcd;
+  text-align: center;
+}
+
 #logo {
   width: 15%;
 }
@@ -246,6 +262,10 @@ body, html {
 
 /*index.html*/
 
+#index-body {
+  overflow-y: hidden;
+}
+
 #index-my-photo {
   position: fixed;
   width: 40%;
@@ -336,6 +356,10 @@ body, html {
 }
 
 /*photo.html*/
+
+#photo-body {
+  overflow-y: hidden;
+}
 
 .photo-carousel {
   width: 100%;
