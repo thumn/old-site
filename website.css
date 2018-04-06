@@ -117,12 +117,17 @@ body, html {
 }
 
 .sidebar-text{
-  font-family: Playfair Display;
+  font-family: Work Sans;
   font-size: 20px;
   line-height: 150%;
   text-decoration: none;
   color: black;
   font-style: bold 700;
+}
+
+.sidebar-text-item {
+  text-decoration: none;
+  color: black;
 }
 
 /*navbar*/
