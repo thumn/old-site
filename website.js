@@ -1,3 +1,7 @@
+$(window).load(function(){
+   $('.loader').fadeOut(1000);
+});
+
 $(document).ready(function(){
   $('#link-max').click(function() {
       $('#photo-emily').css('display', 'none');
