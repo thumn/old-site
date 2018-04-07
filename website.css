@@ -390,11 +390,11 @@ body, html {
 }
 
 #photo-emily {
-  display: block;
+  display: none;
 }
 
 #photo-max {
-  display: none;
+  display: block;
 }
 
 .photo-carousel {
