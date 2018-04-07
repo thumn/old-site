@@ -420,3 +420,7 @@ body, html {
 #portrait-photo {
   width: 72%;
 }
+
+#photo-list-item-max {
+	font-weight: bold;
+}
