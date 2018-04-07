@@ -19,6 +19,7 @@ body, html {
 }
 
 #footer {
+  position:
   margin-bottom: 0%;
   margin-top: 92vh;
   color: #cdcdcd;
@@ -27,9 +28,11 @@ body, html {
 }
 
 #photo-footer {
-  margin-top: -59%;
   color: #cdcdcd;
-  text-align: center;
+  display:block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #logo {
@@ -374,6 +377,14 @@ body, html {
   overflow-y: hidden;
 }
 
+#photo-emily {
+  display: block;
+}
+
+#photo-max {
+  display: none;
+}
+
 .photo-carousel {
   width: 100%;
   overflow: auto;
@@ -393,5 +404,5 @@ body, html {
 }
 
 #portrait-photo {
-  width: 75%;
+  width: 72%;
 }
