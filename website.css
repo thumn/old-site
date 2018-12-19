@@ -88,6 +88,7 @@ body, html {
   line-height: 98%;
   margin-top: 0px;
   margin-bottom: 0px;
+	margin-left: 10%;
 }
 
 .header-4 {
@@ -97,6 +98,7 @@ body, html {
   line-height: 130%;
   margin-top: 0px;
   margin-bottom: 0px;
+	margin-left: 10%;
 }
 
 .text, .text li {
@@ -113,6 +115,7 @@ body, html {
   line-height: 150%;
   text-decoration: none;
   color: black;
+	margin-left: 10%;
 }
 
 .list-item {
@@ -324,7 +327,7 @@ body, html {
   background-color: #f1f1f2;
   padding: 30px;
   margin-top: -40px;
-  height: 270vh;
+  height: 400vh;
   margin-bottom: -730px;
 }
 
@@ -394,6 +397,14 @@ body, html {
   display: none;
 }
 
+#photo-ikea {
+  display: none;
+}
+
+#photo-fa18 {
+  display: none;
+}
+
 #photo-max {
   display: block;
 }
@@ -415,6 +426,16 @@ body, html {
 
 .photo-img {
   margin-top: -7%;
+  width: 100%;
+}
+
+.photo-img-ikea {
+	margin-top: 13%;
+  width: 100%;
+}
+
+.photo-img-fa18 {
+	margin-top: 10%;
   width: 100%;
 }
 
